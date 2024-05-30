@@ -1,0 +1,19 @@
+.mynav {
+  background-color:  rgb(133, 116, 116);
+  height: 95px;
+}
+
+.mynav-link-color {
+  color: white !important; 
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.portrait-pic {
+  width: 250px;
+   border-radius: 20%;
+   object-fit: cover;
+   text-align: center;
+}
