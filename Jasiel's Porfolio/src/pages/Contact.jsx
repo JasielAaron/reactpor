@@ -59,7 +59,7 @@ function Contact() {
      </div>
      <div className="container">
      <button 
-      className="btn btn-outline-secondary">
+      className="btn btn-secondary">
         Submit
       </button>
 

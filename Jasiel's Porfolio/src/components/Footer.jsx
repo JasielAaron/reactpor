@@ -11,10 +11,10 @@ const footertabs = [
     <footer className="sticky-bottom">
     
     {footertabs.map(footerlink => (
-      <div className="container">
+      <div className="container" key='1'>
         <div className="footer-content">
-        <a className="card-link btn btn-outline-secondary" target="_blank" rel="noreferrer" href= {footerlink.github} >GitHub </a>
-      <a className="card-link btn btn-outline-secondary" target="_blank" rel="noreferrer" href= {footerlink.linkedin}>LinkedIn</a>
+        <a className="card-link btn btn-secondary" target="_blank" rel="noreferrer" href= {footerlink.github} >GitHub </a>
+      <a className="card-link btn btn-secondary" target="_blank" rel="noreferrer" href= {footerlink.linkedin}>LinkedIn</a>
 
         </div>
       

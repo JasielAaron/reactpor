@@ -19,7 +19,7 @@ function NavTabs() {
         <Link
           to="/About"
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/About' ? 'nav-link active' : 'nav-link mynav-link-color'}
         >
           About
         </Link>
@@ -28,7 +28,7 @@ function NavTabs() {
         <Link
           to="/Porfolio"
           // Check to see if the currentPage is `Porfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Porfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Porfolio' ? 'nav-link active' : 'nav-link mynav-link-color'}
         >
           Porfolio
         </Link>
@@ -37,7 +37,7 @@ function NavTabs() {
         <Link
           to="/Contact"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link mynav-link-color'}
         >
           Contact
         </Link>
@@ -46,7 +46,7 @@ function NavTabs() {
         <Link
           to="/Resume"
           // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link mynav-link-color'}
         >
           Resume
         </Link>

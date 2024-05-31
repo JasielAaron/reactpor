@@ -56,8 +56,8 @@ export default function Porfolio() {
       <div className="row">
 
       
-      {projects.map(project => (
-        <div className="card col-sm-12 col-md-6 mb-3">
+      {projects.map((project, index) => (
+        <div className="card col-sm-12 col-md-6 mb-3" key={index}>
         <img className="card-img-top" 
         src={project.image}
         alt={project.image}/>

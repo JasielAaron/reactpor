@@ -1,7 +1,7 @@
 export default function Resume() {
   const resume = [
     {
-      resumelink: 'https://docs.google.com/document/d/1UEDFD-RDs4LdcrE0b4Vk_Mv5Zn4c2X8Vh3DsqGI5Y7s/edit?usp=sharing',
+      resumelink: 'https://drive.google.com/file/d/1dT8khtaXvaJi7w5Sg-hDXCuzRhFNnTHg/view?usp=sharing',
 
 
     }
@@ -12,7 +12,7 @@ export default function Resume() {
     <div className="container mb-5">
       <h1 className="mt-4">Resume</h1>
       {resume.map(resumeinfo => (
-        <div className="card col-sm-12 col-md-6 mb-3">
+        <div className="card col-sm-12 col-md-6 mb-3" key='1'>
           <a className="text-dark-emphasis" href={resumeinfo.resumelink} target="_blank" rel="noreferrer">Download My Resume!</a>
           <div className="container resume-info">
             <h3>Front-end Proficiencis</h3>
