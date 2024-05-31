@@ -1,42 +1,8 @@
-# Jasiel's Porfolio
+# React + Vite
 
-  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-  ## Description
+Currently, two official plugins are available:
 
-  This project displays my information, the projects I've worked on thus far in the bootcamp.
-
-  ## Deployed Application URL
-  
-  https://main--jasielporfolio.netlify.app/
-  https://github.com/JasielAaron/reactpor
-
-  ## Table of Contents
-
-  * [Features](#features)
-  * [Languages & Dependecies](#languagesanddependencies)
-  * [Usage](#usage)
-  * [Sources](#sources)
-  * [Questions](#questions)
-  
-
-  
-
-  ## Languages & Dependecies
-
-  Bootstrap, React, React-Dom, React-router-dom
-
-  ## Usage
-
-  JavaScript
-
-  
-
-  ## Sources 
-
-  Tutor Bobbie, Previous lesson
-  
-
-  ## Questions 
-
-  Further questions send them [jasiel.7@icloud.com](mailto:jasiel.7@icloud.com?subject=[GitHub%20Dev20Connect])
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
