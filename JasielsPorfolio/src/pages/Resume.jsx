@@ -1,7 +1,7 @@
 export default function Resume() {
   const resume = [
     {
-      resumelink: 'https://drive.google.com/file/d/1dT8khtaXvaJi7w5Sg-hDXCuzRhFNnTHg/view?usp=sharing',
+      resumelink: 'file:///Users/jasielgonzalez/Downloads/Jasiel%20Soto%20Gonzalez%20(1).pdf',
 
 
     }
